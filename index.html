@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Miami</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqIxMhSTg5upy4hUiu5M_p3FNUU9e18D8&callback=console.debug&libraries=maps,marker&v=beta"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Noto+Sans:wght@400;600;800;900&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>        
+        <video src="assets/Miami Footage (Compressed).mp4" autoplay muted loop>Your browser does not support this video.</video>
+
+        <div id="header-background">
+
+            <h2>WELCOME TO</h2>
+
+            <h1 id="logo">MIAMI</h1>
+                
+            <nav>
+                <a href="#" id="attractions-button">ATTRACTIONS</a>
+                <p>|</p>
+                <a href="#" id="food-button">FOOD</a>
+                <p>|</p>
+                <a href="#" id="maps-button">MAPS</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <section id="attractions">
+        <h3>ATTRACTIONS</h3>
+
+        <main>
+            <div id="img-1">
+                <p>Miami Beach</p>
+            </div>
+            <div id="img-2">
+                <p>Art Deco Historic District</p>
+            </div>
+            <div id="img-3">
+                <p>South Beach</p>
+            </div>
+            <div id="img-4">
+                <p>Vizcaya Museum and Gardens</p>
+            </div>
+            <div id="img-5">
+                <p>Everglades National Park</p>
+            </div>
+            <div id="img-6">
+                <p>Bayside Market Place</p>
+            </div>
+            <div id="img-7">
+                <p>Bayfront Park</p>
+            </div>
+            <div id="img-8">
+                <p>Perez Art Museum</p>
+            </div>
+        </main>
+    </section>
+
+    <section id="food">
+        <h3>FOOD</h3>
+
+        <main>
+            <div id="img-11">
+                <p>Stubborn Seed</p>
+            </div>
+            <div id="img-12">
+                <p>Itamae</p>
+            </div>
+            <div id="img-13">
+                <p>The Surf Club</p>
+            </div>
+            <div id="img-14">
+                <p>Boia De</p>
+            </div>
+            <div id="img-15">
+                <p>Ariete</p>
+            </div>
+            <div id="img-16">
+                <p>Zitz Sum</p>
+            </div>
+            <div id="img-17">
+                <p>La Mar</p>
+            </div>
+            <div id="img-18">
+                <p>Mandolin Aegean Bistro</p>
+            </div>
+        </main>        
+    </section>
+
+    <section id="maps">
+        <h3>MAPS</h3>
+
+        <iframe src="https://storage.googleapis.com/maps-solutions-j8uj4mf0ae/neighborhood-discovery/h5a4/neighborhood-discovery.html"
+            width="100%" height="90%"
+            style="border:none;"
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <audio id="audio">
+        <source src="assets/Beach Noises.wav" type="audio/wav" />
+        Your Browser Doesn't Support Audio
+    </audio>
+
+    <button id="exit">
+        <p>&times;</p>
+    </button>
+
+    <button id="sound-button">
+        <p>PLAY SFX</p>
+    </button>
+
+    <img id="cursor" src="assets/Beach Ball.png" alt="Beach Ball" />
+
+    <script src="script.js"></script>
+</body>
+</html>
